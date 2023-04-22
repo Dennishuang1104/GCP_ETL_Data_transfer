@@ -5,7 +5,8 @@ The main advantage is that because of the large data throughput, there are self-
 
 user's guidance:
 It can be applied to main.py to add different parameters and import them into different services, and quickly summarize the corresponding required data content (because the situation I encountered will have data applications from different platform providers, so different scenarios need to be added).
+To save costs of quires , it need to be split into multiple tables why i did for this project.
 
 Code example:
-For example, in the main program, argv = ["-h", f"{hall}", "-b", f"{begin_date}", "-e", f"{end_date}"]
+For example, in the main program, argv = ["-h", f"{your params}", "-b", f"{begin_date}", "-e", f"{end_date}"]
 Different variables can be added to transfer the required time and date data from BQ to Spanner
